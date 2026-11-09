@@ -13,3 +13,17 @@ This is primarily for two main reasons.
 I also need to figure out how to disable the capsule's ability to rotate as it currently begins shifting and falling onto its side at the moment.
 
 Edit: Rotation can be frozen within Rigid body's constraints.
+
+## Log 2
+I've been going through a lot of struggles as of late with player movement. I've encountered one primary issue as of late.
+
+Low gravity. This is primarily caused by the code I've been using for the player's horizontal movement. Which led to the vertical speed and therefore effected gravity.
+
+## Log 3
+
+I decided to completely rewrite the player script. Instead of using the VLE's implementation, used another video's.
+This completely eliminated the low gravity. This also allowed for a far simpler implementation of jumping.
+
+I've got to implement ground detection for the player.
+
+After that I will be finished with the player character alongside the first component.
